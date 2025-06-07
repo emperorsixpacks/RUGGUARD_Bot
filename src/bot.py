@@ -3,11 +3,11 @@ import logging
 from datetime import datetime, timedelta, timezone
 from typing import Set
 
-from .config import settings
-from .models import BotState
-from .trigger_listener import TriggerListener
-from .trust_analyzer import TrustAnalyzer
-from .twitter_client import TwitterClient
+from src.config import settings
+from src.models import BotState
+from src.trigger_listener import TriggerListener
+from src.trust_analyzer import TrustAnalyzer
+from src.twitter_client import TwitterClient
 
 logger = logging.getLogger(__name__)
 

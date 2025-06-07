@@ -3,8 +3,8 @@ from typing import List, Optional
 
 import tweepy
 
-from .config import settings
-from .models import Tweet, TwitterUser
+from src.config import settings
+from src.models import Tweet, TwitterUser
 
 logger = logging.getLogger(__name__)
 

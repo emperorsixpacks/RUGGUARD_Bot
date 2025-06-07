@@ -4,8 +4,8 @@ from typing import List, Optional, Set
 
 import requests
 
-from .config import settings
-from .models import TrustAnalysis, Tweet, TwitterUser
+from src.config import settings
+from src.models import TrustAnalysis, Tweet, TwitterUser
 
 logger = logging.getLogger(__name__)
 

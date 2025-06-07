@@ -3,8 +3,8 @@ import re
 from datetime import datetime, timezone
 from typing import Optional
 
-from .config import settings
-from .models import Tweet
+from src.config import settings
+from src.models import Tweet
 
 logger = logging.getLogger(__name__)
 
