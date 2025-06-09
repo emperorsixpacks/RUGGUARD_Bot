@@ -26,11 +26,11 @@ A Twitter bot that analyzes account trustworthiness on the Solana Network when t
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/emperorsixpacks/RUGGUARD_Bot
 cd rugguard-bot
 
 # Install dependencies
-pip install -r requirements.txt
+uv sync
 ```
 
 ### 3. Configuration
@@ -58,7 +58,7 @@ python main.py
 ## Replit Deployment
 
 1. Upload all files to a new Replit Python project
-2. Install dependencies: `pip install -r requirements.txt`
+2. Install dependencies: `uv sync`
 3. Set environment variables in Replit's Secrets tab
 4. Run with: `python main.py`
 
