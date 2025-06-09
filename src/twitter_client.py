@@ -30,7 +30,7 @@ class TwitterClient:
             settings.twitter_access_token,
             settings.twitter_access_token_secret,
         )
-        self.api_v1 = tweepy.API(auth, wait_on_rate_limit=True)
+        self.api_v1 = tweepy.API(auth)
 
     async def get_user_by_id(self, user_id: str) -> Optional[TwitterUser]:
         """Get user information by ID."""
