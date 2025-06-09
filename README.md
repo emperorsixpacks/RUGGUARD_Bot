@@ -26,7 +26,7 @@ A Twitter bot that analyzes account trustworthiness on the Solana Network when t
 
 ```bash
 # Clone the repository
-git clone https://github.com/emperorsixpacks/RUGGUARD_Bot
+git clone https://github.com/emperorsixpacks/RUGGUARD_Bot.git
 cd rugguard-bot
 
 # Install dependencies
